@@ -223,13 +223,14 @@
 //*****************TASK 01 **************** */
 
 
-// var cha = prompt("Enter any character");
-// if(cha < 64 && cha > 90 ){
-//     alert("the character is upercase")
-// }
-// else if(cha < 97 && cha > 122 ){
-//     alert("the character is lowercase")
-// }
+var cha = prompt("Enter any character");
+var cha1 = cha.charCodeAt()
+if(cha1 > 64 && cha1 < 90 ){
+    alert("the character is upercase")
+}
+else if(cha1 > 97 && cha1 < 122 ){
+    alert("the character is lowercase")
+}
 
 
 
